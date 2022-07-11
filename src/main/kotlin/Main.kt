@@ -22,6 +22,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import extensions.loadImageBitmap
 import model.Movie
+import webClient.MovieWebClient
 
 @Composable
 @Preview
@@ -130,6 +131,7 @@ private fun MovieItem(movie: Movie) {
 
 
 fun main() = application {
+    MovieWebClient().findTop250Movies()
     Window(
         title = "IMDB",
         onCloseRequest = ::exitApplication
