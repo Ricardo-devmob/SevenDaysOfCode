@@ -9,6 +9,6 @@ import webClient.model.Top250Data
 interface MovieService {
 
     @GET(IMDB_API_KEY)
-    fun findTop250Movies(): Call<Top250Data>
+    suspend fun findTop250Movies(): Top250Data
 
 }
