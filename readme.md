@@ -30,7 +30,7 @@ Gerando a lista de filmes a partir da API.
 
 Finalizando o projeto.
 
-====================================================================================
+===========================================================================
 
 This repository will be used to share the code development of the 7 Days Of Code from Alura.
 
